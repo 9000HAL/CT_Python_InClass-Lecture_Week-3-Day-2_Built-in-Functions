@@ -35,7 +35,8 @@ def my_function(list_a, list_b):
     for num in list_b:
         volumeB*=num
     print(volumeB)
-    return volumeB - volumeA
+    return abs(volumeB - volumeA)
+    
 
 print(my_function([2, 2, 3], [5, 4, 1]))
 
